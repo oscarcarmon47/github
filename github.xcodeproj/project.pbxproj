@@ -23,10 +23,17 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXBuildFile section */
+               90989AE6AA39B88610D1D43C /* TetrisGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D21224F035928AEF1E2FA5 /* TetrisGame.swift */; };
+               7ED4AAB49A053975F7170FC8 /* TetrisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5265E450503A372FC290F315 /* TetrisView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		206F3B9D2DF0DB1C00D509E5 /* github.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = github.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		206F3BAB2DF0DB1F00D509E5 /* githubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		206F3BB52DF0DB1F00D509E5 /* githubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+                206F3BB52DF0DB1F00D509E5 /* githubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+               03D21224F035928AEF1E2FA5 /* TetrisGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github/TetrisGame.swift; sourceTree = "<group>"; };
+               5265E450503A372FC290F315 /* TetrisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github/TetrisView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -77,9 +84,11 @@
 			children = (
 				206F3B9F2DF0DB1C00D509E5 /* github */,
 				206F3BAE2DF0DB1F00D509E5 /* githubTests */,
-				206F3BB82DF0DB1F00D509E5 /* githubUITests */,
-				206F3B9E2DF0DB1C00D509E5 /* Products */,
-			);
+                               206F3BB82DF0DB1F00D509E5 /* githubUITests */,
+                               206F3B9E2DF0DB1C00D509E5 /* Products */,
+                               03D21224F035928AEF1E2FA5 /* TetrisGame.swift */,
+                               5265E450503A372FC290F315 /* TetrisView.swift */,
+                       );
 			sourceTree = "<group>";
 		};
 		206F3B9E2DF0DB1C00D509E5 /* Products */ = {
@@ -232,13 +241,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		206F3B992DF0DB1C00D509E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+                206F3B992DF0DB1C00D509E5 /* Sources */ = {
+                        isa = PBXSourcesBuildPhase;
+                        buildActionMask = 2147483647;
+                        files = (
+                               90989AE6AA39B88610D1D43C /* TetrisGame.swift in Sources */,
+                               7ED4AAB49A053975F7170FC8 /* TetrisView.swift in Sources */,
+                        );
+                        runOnlyForDeploymentPostprocessing = 0;
+                };
 		206F3BA72DF0DB1F00D509E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
